@@ -1,11 +1,9 @@
 # frozen_string_literal: true
 
-# rubocop:disable Style/For
+CENSOR = '$#%!'
 
 def make_censored(text, stop_words)
-  # BEGIN
-  
-  # END
+  text.split.map do |word|
+    stop_words.include?(word) ? CENSOR : word
+  end.join(' ')
 end
-
-# rubocop:enable Style/For
