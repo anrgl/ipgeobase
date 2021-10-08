@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-def build_query_string(opts = {})
+def build_query_string(params = {})
   output = []
-  opts.to_a.sort.each do |pair|
+  params.to_a.sort.each do |pair|
     output << pair.join('=')
   end
   output.join('&')
