@@ -5,14 +5,6 @@ require_relative '../lib/stack'
 
 # StackTest class
 class StackTest < Minitest::Test
-  # def setup
-  #   @stack = Stack.new
-  # end
-
-  # def teardown
-  #   @stack.clear!
-  # end
-
   def test_stack_is_empty
     stack = Stack.new
     assert stack.empty?
