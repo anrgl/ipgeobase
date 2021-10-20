@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+# rubocop: disable all
 
 require_relative 'test_helper'
 require_relative '../lib/post'
@@ -48,8 +49,8 @@ class PostTest < Minitest::Test
     post1 = Post.new title: 'test1'
     post2 = Post.new title: 'test2'
 
-    assert { 'test1' == post1.title }
-    assert { 'test2' == post2.title }
+    assert { post1.title == 'test1' }
+    assert { post2.title == 'test2' }
     assert { post1.title != post2.title }
   end
 end
