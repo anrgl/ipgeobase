@@ -19,6 +19,7 @@ module Model
   module ClassMethods
     def convert(value, type)
       return if value.nil?
+      return if type.nil?
 
       mapping = {
         string: ->(attribute) { attribute.to_s },
