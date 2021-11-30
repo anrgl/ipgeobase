@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'test_helper'
+require_relative "test_helper"
 
 # IpgeobaseTest tests for Ipgeobase module
 class IpgeobaseTest < Minitest::Test

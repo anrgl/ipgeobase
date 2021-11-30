@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "ipgeobase/version"
+require "addressable/uri"
 require "net/http"
 require "happymapper"
 
