@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
+require "uri"
+require "open-uri"
+require "addressable"
 require_relative "ipgeobase/version"
-require "addressable/uri"
-require "net/http"
 require "happymapper"
 
 # Ipgeobase module provide methods for getting info about ip
