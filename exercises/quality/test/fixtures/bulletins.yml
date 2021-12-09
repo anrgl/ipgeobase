@@ -1,9 +1,0 @@
-first:
-  title: First bulletin
-  body: Body for first bulletin
-  published: true
-
-second:
-  title: Second bulletin
-  body: Body for second bulletin
-  published: false
