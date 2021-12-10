@@ -1,2 +1,2 @@
 test:
-	ruby ipgeobase/test/ipgeobase_test.rb
+	test -s solution
