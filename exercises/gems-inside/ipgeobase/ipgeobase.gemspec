@@ -11,9 +11,9 @@ Gem::Specification.new do |spec|
   spec.summary       = "ipgeobase gem show ip geo information."
   spec.description   = "ipgeobase gem show ip geo information."
   spec.homepage      = "https://github.com/anrg/ipgeobase"
-  spec.required_ruby_version = ">= 2.7.0"
+  spec.required_ruby_version = ">= 3.0.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "https://github.com/anrgl/ipgeobase"
 
   spec.metadata["homepage_uri"] = "https://github.com/anrg/ipgeobase"
   spec.metadata["source_code_uri"] = "https://github.com/anrg/ipgeobase"
