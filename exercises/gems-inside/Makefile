@@ -1,2 +1,2 @@
 test:
-	@echo "It works!"
+	test -s solution
